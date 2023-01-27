@@ -1,3 +1,12 @@
+#DevPlanner
+
+Input your tasks and get multiple visualization possibilities. Plan your day, your week and your month
+
+## Project tasks
+- [ ]  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
