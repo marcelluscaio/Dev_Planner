@@ -3,7 +3,20 @@
 Input your tasks and get multiple visualization possibilities. Plan your day, your week and your month
 
 ## Project tasks
-- [ ]  
+- [ ] Make page general layout
+- [ ] Create header
+- [ ] Create "Add task" input
+- [ ] Create footer
+- [ ] Create "Add task" action that stores information in object
+   - [ ] Types of tasks: daily, weekly, monthly custom (e.g. mondays and tuesdays), non-periodic
+- [ ] Create day visualization
+- [ ] Create week visualization
+- [ ] Create month visualization
+- [ ] Create firebase strucuture
+   - [ ] Firebase stores username and password, as well as user's tasks.
+- [ ] Create login page
+   - [ ] When logged in, user gets data permanence
+   - [ ] E-mail (unique value), username (unique value), password, confirm password (rules apear on page and show if requirements are achieved in real time. Toggle show/hide password)
 
 
 
