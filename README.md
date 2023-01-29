@@ -17,7 +17,11 @@ Input your tasks and get multiple visualization possibilities. Plan your day, yo
 - [ ] Create login page
    - [ ] When logged in, user gets data permanence
    - [ ] E-mail (unique value), username (unique value), password, confirm password (rules apear on page and show if requirements are achieved in real time. Toggle show/hide password)
-
+- [ ] Use react router dom
+   - https://www.youtube.com/watch?v=7b42lVMdEjE&ab_channel=MatheusBattisti-HoradeCodar
+   - https://www.youtube.com/watch?v=Ul3y1LXxzdU&ab_channel=WebDevSimplified
+   - https://reactrouter.com/en/main/start/concepts
+   
 
 
 # Getting Started with Create React App
