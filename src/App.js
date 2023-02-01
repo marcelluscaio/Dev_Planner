@@ -1,28 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import SignIn from './components/auth/SignIn';
+import SignUp from './components/auth/SignUp';
+import AuthDetails from './components/AuthDetails';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          Teste de permissão (Alexandre)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SignIn />
+      <SignUp />
+      <AuthDetails />
     </div>
   );
 }
 
 export default App;
+
+// import './App.css';
+// import React from 'react';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import Login from './Login'
+// import SignUp from './SignUp'
+// import Logged from './Logged'
+// import { AuthProvider } from './Auth';
+// import PrivateRoute from './PrivateRoute'
+
+// function App() {
+//   return (
+//     <AuthProvider>
+//       <Router>
+//         <div>
+//           <Route exact path='/login' component={Login} />
+//           <Route exact path='/signup' component={SignUp} />
+//           <PrivateRoute exact path='/Logged' component={Logged} />
+//         </div>
+//       </Router>
+//     </AuthProvider>
+//   );
+// }
+
+// export default App;
